@@ -1,9 +1,8 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-      
 }
 
 .logo img {
@@ -13,21 +12,18 @@ body{
     left: 70px;
 }
 
-.container{
-
+.container {
     width: 100%;
     height: 80px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:white;
-    
+    background-color: white;
 }
 
- .head {
+.head {
     display: flex;
-         
 }
 
 .item {
@@ -35,24 +31,23 @@ body{
     font-size: 20px;
     margin: 20px;
     letter-spacing: 1mm;
-   
 }
-li a{
+
+li a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: medium;
     color: seagreen;
-    
     cursor: pointer;
-   position: relative;
-   right: 120px;
-  
-}
-li a:hover{
-    color:brown;
+    position: relative;
+    right: 120px;
 }
 
-.home{
+li a:hover {
+    color: brown;
+}
+
+.home {
     text-align: center;
     width: 100%;
     height: 100vh;
@@ -63,31 +58,28 @@ li a:hover{
 
 .home .overlay {
     width: 100%;
-    height: 100%;    
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-
 }
-.home h1{
+
+.home h1 {
     font-size: 48px;
-    color:white;
+    color: white;
     font-weight: 100;
     font-style: italic;
-    
-   
-    
 }
+
 .home p {
-    margin:10px 10px;
+    margin: 10px 10px;
     font-size: 20px;
-    color:white;
+    color: white;
     font-style: oblique;
     padding: 5px;
-
 }
 
-.hero-cta{
+.hero-cta {
     background-color: rgb(79, 128, 79);
-    border:none;
+    border: none;
     padding: 10px;
     font-weight: bold;
     border-radius: 1.2rem;
@@ -97,42 +89,36 @@ li a:hover{
     padding: 40px 0;
 }
 
-footer{
-    
-    padding:0.5rem ;
-    
+footer {
+    padding: 0.5rem;
     font-family: cursive;
-    color:seagreen;
+    color: seagreen;
 }
-.lefty{
+
+.lefty {
     width: 20%;
     float: left;
-    
 }
-.righty{
+
+.righty {
     float: right;
     width: 80%;
     margin-top: 1%;
 }
-.righty input {
-   margin-left:0.3rem ;
-   margin-right:2rem ; 
-   width: 250px;
-   font-size: 1rem;
-}
 
+.righty input {
+    margin-left: 0.3rem;
+    margin-right: 2rem;
+    width: 250px;
+    font-size: 1rem;
+}
 
 
 /*****/
-
-.hero {
-
-}
 
 .hero-content {
     padding: 20px 40px;
     max-width: 1024px;
     text-align: center;
     margin: 0 auto;
-
 }
